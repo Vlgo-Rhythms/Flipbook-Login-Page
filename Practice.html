@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login page</title>
+    <link rel="stylesheet" href="practice.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="box">
+        <div class="header">
+            <div class="left">
+                <div class="logo">
+                    <div class="logo-img">
+                        <img src="logo.png" alt="Vlgo_Rhythms">
+                    </div>
+                    <div class="logo-name">
+                        <h1>Vlgo_Rhythms</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="right">
+                <div class="social-icon">
+                    <div class="icon">
+                        <a href="#">
+                            <i class="fa-solid fa-house"></i>
+                            <p>Home</p>
+                        </a>
+                    </div>
+                    <div class="icon">
+                        <a href="#">
+                            <i class="fa-solid fa-image"></i>
+                            <p>Gallery</p>
+                        </a>
+                    </div>
+                    <div class="icon">
+                        <a href="#">
+                            <i class="fa-solid fa-store"></i>
+                            <p>Store</p>
+                        </a>
+                    </div>
+                    <div class="icon">
+                        <a href="#">
+                            <i class="fa-solid fa-circle-info"></i>
+                            <p>Info</p>
+                        </a>
+                    </div>
+                    <div class="icon">
+                        <a href="#">
+                            <i class="fa-solid fa-phone"></i>
+                            <p>Contact</p>
+                        </a>
+                    </div>
+                    <div class="icon">
+                        <div class="login">
+                            <button type="submit" id="login">Login</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main">
+            <div class="login-box">
+                <div class="book-container">
+                    <div class="book">
+                        <!-- page 1 -->
+                        <div class="page page-1">
+                            <div class="front">
+                                <img src="cover.png" alt="cover">
+                                <button id="explore">Explore</button>
+                            </div>
+                            <div class="back">
+                                <img src="girl.png" alt="A thought">
+                            </div>
+                        </div>
+
+                        <!-- page 2 -->
+                        <div class="page page-2">
+                            <div class="front">
+                                <div class="sign-up">
+                                    <h1>Create Account</h1>
+                                    <div class="social-media">
+                                        <i class="fa-brands fa-google" style="color: #da6323f1;"></i>
+                                        <i class="fa-brands fa-apple" style="color: #313131;"></i>
+                                        <i class="fa-brands fa-github" style="color: #565656;"></i>
+                                        <i class="fa-brands fa-linkedin" style="color: #0359e4;"></i>
+                                        <i class="fa-brands fa-instagram" style="color: #df3f92;"></i>
+                                    </div>
+                                    <h3>Already Registered? <a href="#" id="signIn">Sign In</a> here. </h3>
+                                    <div class="input">
+                                        <form action="#">
+                                            <div class="username">
+                                                <input type="text" placeholder="Name">
+                                                <i class="fa-regular fa-user"></i>
+                                            </div>
+                                            <div class="dob">
+                                                <input type="datetime" placeholder="Date of birth">
+                                            </div>
+                                            <div class="password">
+                                                <input type="password" placeholder="Password">
+                                                <i class="fa-solid fa-lock"></i>
+                                            </div>
+                                            <div class="password">
+                                                <input type="password" placeholder="Confirm password">
+                                                <i class="fa-solid fa-lock"></i>
+                                            </div>
+                                            <button type="submit" class="btn">Create Account</button>
+                                        </form>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="back">
+                                <img src="journey.png" alt="journey">
+                            </div>
+                        </div>
+
+
+                        <!-- page 3 -->
+                        <div class="page page-3">
+                            <div class="front">
+                                <div class="sign-in">
+                                    <h1>Sign In </h1>
+                                    <div class="social-media">
+                                        <div>
+                                            <img src="g.png" alt="google">
+                                            <b>Google</b>
+                                        </div>
+                                        <div>
+                                            <img src="apple.png" alt="apple">
+                                            <b>Apple</b>
+                                        </div>
+                                    </div>
+                                    <h3>Welcome! Please enter your details. </h3>
+                                    <div class="input">
+                                        <form action="#">
+                                            <div class="username">
+                                                <input type="text" placeholder="Username">
+                                                <i class="fa-regular fa-user"></i>
+                                            </div>
+                                            <div class="password">
+                                                <input type="password" placeholder="Password">
+                                                <i class="fa-solid fa-lock"></i>
+                                            </div>
+                                            <button type="submit" class="btn">Sign in </button>
+                                        </form>
+                                    </div>
+                                    <div class="forgot">
+                                        <span><a href="#" id="forgot">Forgot password?</a></span>
+                                        <span><a href="#" id="sign-up">Sign up</a></span>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="back">
+                                <img src="gallexy.png" alt="gallexy">
+                            </div>
+                        </div>
+
+                        <!-- page 4 -->
+                        <div class="page page-4">
+                            <div class="front">
+                                <div class="forgot-page">
+                                    <h1>Forgot Password?</h1>
+                                    <div class="social-media">
+                                        <img src="forgot.png" alt="forgot password">
+                                    </div>
+                                    <h3>It's ok, no problem</h3>
+                                    <div class="input">
+                                        <form action="#">
+                                            <div class="username">
+                                                <input type="text" placeholder="Username">
+                                                <i class="fa-regular fa-user"></i>
+                                            </div>
+
+                                            <div class="password">
+                                                <input type="email" placeholder="Enter your email">
+                                                <i class="fa-solid fa-lock"></i>
+                                            </div>
+                                            <div class="otp">
+                                                <input type="text">
+                                                <input type="text">
+                                                <input type="text">
+                                                <input type="text">
+                                            </div>
+                                            <span class="button-section">
+                                                <button>Get OTP</button>
+                                                <button id="continue">Continue</button>
+                                            </span>
+                                        </form>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="back">
+                                <img src="way.png" alt="way">
+                            </div>
+                        </div>
+
+                        <!-- page 5 -->
+                         <div class="page page-5">
+                            <div class="front">
+                                <div class="reset-page">
+                                    <div class="icon">
+                                        <img src="forgot1.png" alt="reset password">
+                                    </div>
+                                    <h1>Create password</h1>
+                                    <h3>Enter a new password below to change your password.</h3>
+                                    <div class="input">
+                                        <form action="#">
+                                            <div class="password">
+                                                <input type="password" placeholder="New password*">
+                                                <i class="fa-solid fa-lock"></i>
+                                            </div>
+                                            <div class="password">
+                                                <input type="password" placeholder="Re-enter new password*">
+                                                <i class="fa-solid fa-lock"></i>
+                                            </div>
+                                            <div class="hint">
+                                                <h3>Your password must contain:</h3>
+                                                <p>At least 10 character in length.</p>
+                                            </div>
+                                            <button type="reset" class="btn">Reset password</button>
+                                        </form>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <script src="practice.js"></script>
+</body>
+
+</html>
